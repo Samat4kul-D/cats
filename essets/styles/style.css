@@ -1,0 +1,164 @@
+@import './font.css';
+
+:root {
+
+}
+
+/* BASE CONFIG */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    width: 380px;
+    height: 65px;
+    border: 0;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* BASE CONFIG */
+
+.col-4 {
+	width: 33.33333%;
+}
+.col-6 {
+	width: 50%;
+}
+
+.main {
+    background:  #E5E5E5;
+    padding-top: 88px;
+}
+
+.container {
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.image {
+    position: relative;
+}
+
+.cat {
+    width: 380px;
+    height: 264px;
+}
+
+
+.discount {
+    position: absolute;
+    top: 34px;
+    left: 37px;
+    width: 78px;
+    height: 39px;
+}
+
+.like {
+    position: absolute;
+    top: 34px;
+    right: 52px;
+}
+
+.like-1 {
+    position: absolute;
+    top: 34px;
+    right: 52px;
+}
+
+.about-cat {
+    max-width: 380px;
+    background: #F3F3F3;
+    padding: 30px;
+    position: relative;
+}
+
+
+.about-cat-title {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.about-cat-text {
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+p:first-child {
+    padding-left: 18px;
+}
+
+.about-cat-text::before {
+    content: "";
+    position: absolute;
+    top: 82px;
+    left: 29px;
+    width: 4px;
+    height: 26px;
+    background: #6EBBD3;
+}
+
+p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+b {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.prise {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.buy {
+    background: #6EBBD3;
+}
+
+.sold {
+    color: #FFFFFF;
+    background: #1F2021;
+}
+
+.text {
+    margin-top: 95px;
+}
+
+.text-1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.text-2 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
